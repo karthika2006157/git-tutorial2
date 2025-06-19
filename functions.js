@@ -25,3 +25,23 @@ let arrowFuncVar=() => {
 
 };
 arrowFuncVar();
+let nums=[1,2,3,4,5];
+let evens=nums.filter((n)=>{
+    return(n%2===0);
+})
+console.log(evens);
+let newEvens=nums.filter((n)=> n%2===0);
+console.log(evens);
+
+//map method
+console.log("using map method");
+let squares=nums.map((n)=>{
+    return n*n;
+})
+console.log(squares);
+//reduce method
+console.log("using reduce method");
+let newSum=nums.reduce((sum,n)=>{
+    return sum+n;
+},(sum=0));
+console.log(newSum);
