@@ -1,7 +1,14 @@
+function add(a,b){
+    console.log(a+b);
+}
 let newObject={
-    name: "Hema",
-    age:20,
+    name: "John Doe",
+    age:25,
+    func:(a,b)=>{
+        console.log(a,b);
+    },
 
 };
 console.log(newObject.name);
 console.log(newObject.age);
+newObject.func(2,3);
