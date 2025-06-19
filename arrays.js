@@ -48,12 +48,8 @@ console.log("Mapping:")
 let upperFruits = fruits.map(fruit => fruit.toUpperCase());
 console.log("Uppercase fruits:", upperFruits);
 
-console.log("filtering")
-let filtered = fruits.filter(fruit => fruit.length > 5);
-console.log("Fruits with names longer than 5 letters:", filtered);
+
 console.log("sorting:")
 fruits.sort(); // sorts alphabetically
 console.log("Sorted array:", fruits);
 
-fruits.reverse(); // reverses the array
-console.log("Reversed array:", fruits);
