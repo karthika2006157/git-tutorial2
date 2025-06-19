@@ -53,3 +53,5 @@ console.log("sorting:")
 fruits.sort(); // sorts alphabetically
 console.log("Sorted array:", fruits);
 
+let newArray=[...fruits,"A","B"];
+console.log(fruits);
